@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+}
+
+.registerTable {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#registerTitle {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.inputCell {
+    text-align: center;
+}
+
+.footerCell {
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.text {
+    border: none;
+    border-bottom: solid black 1px;
+    width: 70%;
+}
+
+.submit {
+    border: solid black 1px;
+    width: 70%;
+    height: 110%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

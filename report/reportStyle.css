@@ -1,0 +1,23 @@
+#content {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+#report_comment {
+    height: 200px;
+    width: 400px;
+    resize: none;
+}
+
+@media only screen and (max-device-width: 640px) {
+    #report_comment {
+        height: 200px;
+        width: 100%;
+        resize: none;
+    }
+
+    #report {
+        width: 100%;
+    }
+}

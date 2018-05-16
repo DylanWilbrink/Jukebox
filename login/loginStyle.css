@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+#titleRow {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+#loginTable {
+    width: 100%;
+    height: 100%;
+}
+
+#submitRow {
+    text-align: center;
+}
+
+#footerRow {
+    height: 5%;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.textCell {
+    text-align: center;
+}
+
+.text {
+    width: 70%;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.submit {
+    width: 60%;
+    height: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

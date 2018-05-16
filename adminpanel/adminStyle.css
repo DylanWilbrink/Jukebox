@@ -1,0 +1,50 @@
+#side {
+    width: 20%;
+    height: 100%;
+    background: red;
+    float: left
+}
+
+#sideTable {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    border-right: solid black 1px;
+}
+
+#contentTable {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+#userTable {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+.titleRow {
+    height: 40px;
+    color: white;
+    background: black;
+}
+
+.userRow {
+    height: 40px;
+}
+
+.userRow:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.userRow:hover .userLink {
+    color: white;
+}
+
+.userLink {
+    text-decoration: none;
+    color: black;
+}

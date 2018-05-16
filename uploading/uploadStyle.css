@@ -1,0 +1,19 @@
+#content {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#desc {
+    resize: none;
+    height: 200px;
+    width: 400px;
+}
+
+@media only screen and (max-device-width: 640px) {
+    #desc {
+        resize: none;
+        height: 200px;
+        width: 100%;
+    }
+}
