@@ -2,6 +2,7 @@
 session_start();
 $functions = new functions;
 
+//Helper
 class functions
 {
     //Create connection to DB
