@@ -21,11 +21,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itemSlider.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="itemSlider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/itemSlider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -85,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/adminpanel/remove/delete.php" />
         <option value="$PROJECT_DIR$/adminpanel/remove/index.php" />
         <option value="$PROJECT_DIR$/adminpanel/ban/index.php" />
         <option value="$PROJECT_DIR$/adminpanel/accepting/accepting.php" />
@@ -136,6 +145,7 @@
         <option value="$PROJECT_DIR$/includes/slider.php" />
         <option value="$PROJECT_DIR$/includes/artistSlider.php" />
         <option value="$PROJECT_DIR$/includes/itemSlider.php" />
+        <option value="$PROJECT_DIR$/functions/logout.php" />
       </list>
     </option>
   </component>
@@ -180,6 +190,11 @@
             <path>
               <item name="Jukebox" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jukebox" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Jukebox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jukebox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Jukebox" type="b2602c69:ProjectViewProjectNode" />
@@ -262,12 +277,12 @@
       <workItem from="1526465340013" duration="9000" />
       <workItem from="1526468904704" duration="5145000" />
       <workItem from="1526539270249" duration="6864000" />
-      <workItem from="1527076214178" duration="829000" />
+      <workItem from="1527076214178" duration="1359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321060000" />
+    <option name="totallyTimeSpent" value="321590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -340,13 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -714,6 +722,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
