@@ -1,5 +1,5 @@
 <?php
-//Log out
+//Log out function
 session_start();
 session_destroy();
 
