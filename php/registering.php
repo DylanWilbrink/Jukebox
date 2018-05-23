@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
             ':rank' => $_POST['rank']
         ));
         echo 'Inserted';
-        header('location: ../login/login.php');
+        header('location: ../pages/login.php');
         $_SESSION['error'] = '';
     } else {
         $_SESSION['error'] = 'Please fill out the entire form.';
