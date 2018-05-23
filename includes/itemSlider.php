@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require_once '../home/gethome.php'; ?>
+    <?php include __DIR__ . '/../php/gethome.php'; ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css">
 
@@ -40,7 +40,7 @@
     } else {
         //Display songs
         foreach ($songs as $result) { ?>
-            <div onclick="window.location='http://localhost/Jukebox/song/song.php?song=<?php echo $result['song_id']; ?>'"
+            <div onclick="window.location='http://localhost/Jukebox/pages/song.php?song=<?php echo $result['song_id']; ?>'"
                  class="swiper-slide"
                  style="background: url('<?php echo $result['cover_image']; ?>') no-repeat; background-size: cover; width: 300px; height: 300px;">
                 <h1 style="color: white; background:black; opacity: 0.7; width:100%;"><?php echo $result['title']; ?>

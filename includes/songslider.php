@@ -32,7 +32,7 @@
                         <img src="../files/<?php echo $result['profile_picture']; ?>"
                                          alt="<?php echo $result['user_id']; ?>" style="min-height: 300px; min-width: 300px;">
                     <?php } ?>
-                    <a class="link" href="../profile/profile.php?id=<?php echo $result['user_id']; ?>"><h2><?php echo $result['username']; ?></h2></a>
+                    <a class="link" href="../pages/profile.php?id=<?php echo $result['user_id']; ?>"><h2><?php echo $result['username']; ?></h2></a>
                 </div>
             </div>
         </div>

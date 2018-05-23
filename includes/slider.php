@@ -10,21 +10,21 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <img class="d-block img-fluid" src="../layout/slide1.jpg" alt="First slide">
+            <img class="d-block img-fluid" src="/Jukebox/layout/slide1.jpg" alt="First slide">
             <div class="carousel-caption">
                 <h2>Music</h2>
-                <a style="text-decoration: none; color: white;" href="http://localhost/Jukebox/discover/discover.php"><p>Discover new music</p></a>
+                <a style="text-decoration: none; color: white;" href="http://localhost/Jukebox/pages/discovering.php"><p>Discover new music</p></a>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block img-fluid" src="../layout/slide2.jpg" alt="Second slide">
+            <img class="d-block img-fluid" src="/Jukebox/layout/slide2.jpg" alt="Second slide">
             <div class="carousel-caption">
                 <h2>Artists</h2>
                 <p>Discover unknown artists</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block img-fluid" src="../layout/slide3.jpg" alt="Third slide">
+            <img class="d-block img-fluid" src="/Jukebox/layout/slide3.jpg" alt="Third slide">
             <div class="carousel-caption">
                 <h2>Uploading</h2>
                 <p>Upload your new tracks</p>
